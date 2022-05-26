@@ -4,7 +4,14 @@
   width: 100vw;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
+}
+
+body {
+  background-color: #fad4d4;
+}
+p {
+  display: inline-block;
 }
 .iconPic {
   width: 150px;
@@ -55,26 +62,21 @@
   /* border: 5px solid blueviolet; */
   width: 100vw;
   height: 100vh;
-  background-color: #FAD4D4;
 }
 .aboutUs-p {
   text-align: center;
   margin: 10px;
   color: #7d1e6a;
 }
+
 h1,
 h2 {
-  margin-top: 10px;
+  padding-top: 20px;
+  /* margin-top: 10px; */
   text-align: center;
   font-family: fantasy;
 }
 
-.aboutUs-img,
-.aboutUs-p2 {
-  justify-content: center;
-  flex-direction: row;
-  display: flex;
-}
 .img {
   width: 200px;
   height: 150px;
@@ -83,11 +85,18 @@ h2 {
 
 .bio {
   padding: 30px;
-  padding-top: 10px;
 }
 
-.container {
+.aboutUs-img {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.flex-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 350px;
 }
