@@ -4,6 +4,7 @@
   width: 100vw;
   display: flex;
   justify-content: space-between;
+  border: rgb(8, 2, 2) solid;
 }
 
 body {
