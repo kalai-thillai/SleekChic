@@ -496,3 +496,17 @@ body {
     flex: 2 0px;
   }
 }
+.list{
+  margin-left: 20vw;
+
+  
+}
+
+.list-container{
+  margin-top: 20vw;
+}
+
+#newItemForm, .newproduct{
+  font-family:cursive;
+  font-size: 20px;
+}
