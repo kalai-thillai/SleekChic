@@ -41,11 +41,13 @@ p {
 }
  span{
   margin-left:20px ;
+
  }
 
 .contact-link {
   background: linear-gradient(to bottom, #77a809 5%, #89c403 100%);
   background-color: #77a809;
+ 
 }
 .contact-link:hover {
   color: indianred;
