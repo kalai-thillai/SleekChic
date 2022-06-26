@@ -1,10 +1,11 @@
 .navbar {
   background-color: #d1d1d1;
-  height: 100px;
+  height: 80%;
   width: 100vw;
   display: flex;
   justify-content: space-between;
-  border: rgb(8, 2, 2) solid;
+
+  align-items: center;
 }
 
 body {
@@ -34,20 +35,17 @@ p {
   font-size: 18px;
   font-weight: bold;
   padding: 6px 24px;
-  padding-top: 10px;
 
   text-decoration: none;
   text-shadow: 0px 1px 0px #528009;
 }
- span{
-  margin-left:20px ;
-
- }
+span {
+  margin-left: 20px;
+}
 
 .contact-link {
   background: linear-gradient(to bottom, #77a809 5%, #89c403 100%);
   background-color: #77a809;
- 
 }
 .contact-link:hover {
   color: indianred;
@@ -55,10 +53,16 @@ p {
   position: relative;
 }
 
+.navbar-link {
+  text-decoration: none;
+}
 .logoPic {
-  align-self: start;
   width: 100px;
-  max-height: auto;
+  height: 83px;
+  background: url(images/logoPic.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 .aboutUs {
   padding: 10rem 0 10rem 0;
@@ -109,7 +113,7 @@ h2 {
 }
 
 .image-container1 {
-display: grid;
+  display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
   width: 90%;
@@ -128,20 +132,17 @@ display: grid;
     
     
      */
-    display: flex;
-    margin: 0 auto;
-    /* gap: 20px; */
-    width: 100%;
-  }
+  display: flex;
+  margin: 0 auto;
+  /* gap: 20px; */
+  width: 100%;
+}
 
-.image{
+.image {
   width: 80%;
   height: 14rem;
   margin-top: 20px;
 }
-
-
-
 
 /* Contact */
 .contact {
@@ -159,7 +160,6 @@ display: grid;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
   text-shadow: 0 1rem 2rem #000;
-  margin-bottom: 5rem;
 }
 
 .contact-p {
@@ -169,7 +169,6 @@ display: grid;
   letter-spacing: 0.1rem;
   text-transform: lowercase;
   text-shadow: 0 1rem 2rem #000;
-  margin-bottom: 5rem;
 }
 
 /* footer */
@@ -496,17 +495,16 @@ body {
     flex: 2 0px;
   }
 }
-.list{
+.list {
   margin-left: 20vw;
-
-  
 }
 
-.list-container{
+.list-container {
   margin-top: 20vw;
 }
 
-#newItemForm, .newproduct{
-  font-family:cursive;
+#newItemForm,
+.newproduct {
+  font-family: cursive;
   font-size: 20px;
 }
