@@ -1,7 +1,7 @@
 const initialCards = [
   {
     name: "Dress",
-    link: "https://ae01.alicdn.com/kf/HTB1_dIeQpXXXXb4XVXXq6xXFXXXy/ORMELL-Womens-Vintage-Brief-Elegant-Casual-Dess-Work-Sleeveless-V-Neck-Pleated-Knee-Length-Women-Office.jpg",
+    link: "https://img.promgirl.com/_img/PGPRODUCTS/2409999/320/black-dress-PG-22-B2284-a.jpg",
   },
   {
     name: "Jeans",
